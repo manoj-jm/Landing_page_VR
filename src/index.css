@@ -8,6 +8,9 @@
   .text-gradient-amber {
     @apply bg-gradient-to-l from-amber-800 to-amber-400 text-transparent bg-clip-text;
   }
+  .text-gradient-red {
+    @apply bg-gradient-to-r from-red-800 to-red-900 text-transparent bg-clip-text;
+  }
 }
 
 :root {
