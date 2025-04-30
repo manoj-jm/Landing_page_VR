@@ -1,4 +1,4 @@
-import React from "react";
+import footballVideo from "../assets/football.mp4";
 
 const Hero = () => {
   return (
@@ -23,13 +23,18 @@ const Hero = () => {
           >
             Start for free
           </a>
-          <a
-            href="#" 
-            
-            className=" py-2 px-4 rounded border border-white"
-          >
+          <a href="#" className=" py-2 px-4 rounded border border-white">
             Documentation
           </a>
+        </div>
+        <div className="flex mt-10 justify-center">
+          <video
+            autoPlay
+            src={footballVideo}
+            muted
+            loop
+            className="rounded w-150  border border-orange-700 shadow-orange-300 mx-2 my-4"
+          ></video>
         </div>
       </div>
     </>
