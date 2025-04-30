@@ -62,7 +62,7 @@ const Navbar = () => {
                   Sign In
                 </a>
                 {/* removed boarder for below a , but it still showing an boarder-white ?  */}
-                <a 
+                <a
                   href="#"
                   class="px-3 py-2 rounded-lg bg-gradient-to-r from-amber-600 to-amber-700"
                 >

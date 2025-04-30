@@ -1,4 +1,5 @@
-import footballVideo from "../assets/football.mp4";
+import video1 from "../assets/video1.mp4";
+import video2 from "../assets/video2.mp4"
 
 const Hero = () => {
   return (
@@ -30,14 +31,14 @@ const Hero = () => {
         <div className="flex mt-10 justify-center">
           <video
             autoPlay
-            src={footballVideo}
+            src={video1}
             muted
             loop
             className="rounded w-150  border border-orange-700 shadow-orange-300 mx-2 my-4"
           ></video>
           <video
             autoPlay
-            src={footballVideo}
+            src={video2}
             muted
             loop
             className="rounded w-150  border border-orange-700 shadow-orange-300 mx-2 my-4"
