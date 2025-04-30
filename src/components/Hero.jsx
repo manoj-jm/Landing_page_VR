@@ -35,6 +35,13 @@ const Hero = () => {
             loop
             className="rounded w-150  border border-orange-700 shadow-orange-300 mx-2 my-4"
           ></video>
+          <video
+            autoPlay
+            src={footballVideo}
+            muted
+            loop
+            className="rounded w-150  border border-orange-700 shadow-orange-300 mx-2 my-4"
+          ></video>
         </div>
       </div>
     </>
