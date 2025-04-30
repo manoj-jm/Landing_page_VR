@@ -2,14 +2,14 @@ import { features } from "../constants";
 
 const Features = () => {
   return (
-    <div className="relative mt-20 border-b border-neutral-800 min-h-[800px]">
+    <div className="relative mt-20 border-b border-neutral-800 min-h-[600px]">
       <div className="text-center">
         <span className="bg-neutral-900 text-orange-500 rounded-full font-sm font-medium px-2 py-1 uppercase">
           feature
         </span>
         <h2 className="text-3xl sm:text-5xl lg:text-6xl mt-10 lg:mt-20 tracking-wide">
           Easily build{" "}
-          <span className="bg-gradient-to-l from-amber-800 to-amber-400  text-transparent bg-clip-text">
+          <span className="text-gradient-amber">
             your code
           </span>
         </h2>
