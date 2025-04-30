@@ -24,7 +24,8 @@ const Hero = () => {
             Start for free
           </a>
           <a
-            href="#"
+            href="#" 
+            
             className=" py-2 px-4 rounded border border-white"
           >
             Documentation
