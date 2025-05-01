@@ -7,9 +7,9 @@ const Pricing = () => {
       <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center my-8 tracking-wider">
         Pricing
       </h2>
-      <div className="flex flex-wrap justify-center gap-6">
+      <div className="flex flex-wrap justify-around gap-6">
         {pricingOptions.map((price, index) => (
-          <div key={index} className="w-[90%] sm:w-1/2 lg:w-1/3">
+          <div key={index} className="w-[90%] sm:w-1/2 lg:w-[28%]">
             <div className="p-6 border border-neutral-700 rounded-xl bg-neutral-800">
               <p className="text-4xl font-semibold mb-4">
                 {price.title}
