@@ -16,7 +16,7 @@ const Features = () => {
       </div>
 
       <div className="lg:flex flex-col mt-12 items-center gap-4">
-        <div className="flex flex-wrap mt-10 lg:mt-16 mx-20">
+        <div className="flex flex-wrap mt-10 lg:mt-16 lg:mx-20">
           {features.map((feature, ind) => (
             <div key={ind} className="w-full sm:1/2 lg:w-1/3">
               <div className="flex ">
