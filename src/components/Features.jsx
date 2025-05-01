@@ -15,17 +15,17 @@ const Features = () => {
         </h2>
       </div>
 
-      <div className="lg:flex flex-col mt-12 items-center gap-4">
-        <div className="flex flex-wrap mt-10 lg:mt-16 lg:mx-20">
+      <div className="lg:flex flex-col mt-12 items-center">
+        <div className="flex flex-wrap mt-10 lg:mt-10 justify-center lg:mx-30 gap-2">
           {features.map((feature, ind) => (
-            <div key={ind} className="w-full sm:1/2 lg:w-1/3">
-              <div className="flex ">
+            <div key={ind} className="w-[90%] sm:1/2 lg:w-1/3  border border-neutral-600 rounded">
+              <div className="flex gap-2">
                 <div className="flex mx-6 h-10 w-10 p-2 bg-neutral-900 text-orange-500 justify-center items-center rounded-full">
                   {feature.icon()}
                 </div>
                 <div className=" ">
                   <h1 className="mt-1 mb-6 text-xl">{feature.text}</h1>
-                  <p className="text-[#5a585aee] text-md mb-20 p-2">{feature.description}</p>
+                  <p className="text-[#5a585aee] text-md mb-10 p-2">{feature.description}</p>
                 </div>
               </div>
             </div>
