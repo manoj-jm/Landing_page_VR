@@ -57,7 +57,7 @@ const Navbar = () => {
               <div className="flex justify-center space-x-12 items-center">
                 <a
                   href="#"
-                  className="px-3 py-2 border border-white rounded-lg"
+                  className="px-3 py-2 border border-white rounded-lg "
                 >
                   Sign In
                 </a>

@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="lg:flex flex-col mt-13 items-center gap-4">
         <h1 className="text-7xl text-center">
           Virtual Build Tools{" "}
-          <span className="text-gradient-amber">
+          <span className="bg-gradient-to-l from-amber-500 to-amber-800 text-transparent bg-clip-text">
             for <br />
             developers
           </span>

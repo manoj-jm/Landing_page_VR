@@ -9,7 +9,7 @@ const Features = () => {
         </span>
         <h2 className="text-3xl sm:text-5xl lg:text-6xl mt-10 lg:mt-20 tracking-wide">
           Easily build{" "}
-          <span className="text-gradient-amber">
+          <span className="bg-gradient-to-l from-amber-500 to-amber-800 text-transparent bg-clip-text">
             your code
           </span>
         </h2>

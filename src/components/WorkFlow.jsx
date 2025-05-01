@@ -6,7 +6,9 @@ const WorkFlow = () => {
     <div className="mt-10 mx-20">
       <h2 className="text-3xl lg:text-7xl text-center mt-6">
         Accelerate your{" "}
-        <span className="text-gradient-amber">coding workflow.</span>
+        <span className="bg-gradient-to-l from-amber-500 to-amber-800 text-transparent bg-clip-text">
+          coding workflow.
+        </span>
       </h2>
       <div className="flex flex-wrap justify-center">
         <div className="p-2 w-full lg:w-1/2">
@@ -19,7 +21,7 @@ const WorkFlow = () => {
               <div className="text-green-400 mx-6 bg-neutral-900 h-10 w-10 p-2 justify-center items-center rounded-full">
                 <CheckCircle2 />
               </div>
-              <div  >
+              <div>
                 <h5 className="mt-1 mb-2 text-xl">{item.title}</h5>
                 <p className="text-md text-neutral-500">{item.description}</p>
               </div>
