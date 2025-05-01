@@ -2,8 +2,8 @@ import { resourcesLinks, platformLinks, communityLinks } from "../constants";
 
 const Footer = () => {
   return (
-    <footer className=" flex justify-center border-t mt-10">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-60 my-10  ">
+    <footer className="mt-20 border-t py-10 border-neutral-700">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
         <div>
           <h3 className="text-md font-semibold mb-4">Resources</h3>
           <ul className="space-y-2">
@@ -11,7 +11,7 @@ const Footer = () => {
               <li key={index}>
                 <a
                   href={link.href}
-                  className="text-neutral-300 hover:text-orange-300"
+                  className="text-neutral-300 hover:text-white"
                 >
                   {link.text}
                 </a>
@@ -26,7 +26,7 @@ const Footer = () => {
               <li key={index}>
                 <a
                   href={link.href}
-                  className="text-neutral-300 hover:text-orange-300"
+                  className="text-neutral-300 hover:text-white"
                 >
                   {link.text}
                 </a>
@@ -41,7 +41,7 @@ const Footer = () => {
               <li key={index}>
                 <a
                   href={link.href}
-                  className="text-neutral-300 hover:text-orange-300"
+                  className="text-neutral-300 hover:text-white"
                 >
                   {link.text}
                 </a>
