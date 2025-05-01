@@ -11,7 +11,7 @@ const WorkFlow = () => {
           coding workflow.
         </span>
       </h2>
-      <div className="flex flex-wrap justify-center gap-6 mt-10">
+      <div className="flex flex-wrap sm:flex-nowrap justify-center sm:justify-between gap-6 mt-10">
         <div className="w-full lg:w-1/2">
           <img
             src={codeImg}
@@ -22,13 +22,13 @@ const WorkFlow = () => {
 
         <div className="w-full lg:w-1/2">
           {checklistItems.map((item, index) => (
-            <div key={index} className="flex mb-8">
+            <div key={index} className="flex mb-8 ">
               <div className="text-green-400 bg-neutral-900 h-10 w-10 p-2 flex justify-center items-center rounded-full">
                 <CheckCircle2 />
               </div>
               <div className="ml-4">
-                <h5 className="text-lg font-medium">{item.title}</h5>
-                <p className="text-sm text-neutral-400">{item.description}</p>
+                <h5 className="text-lg font-medium lg:text-3xl">{item.title}</h5>
+                <p className="text-sm text-neutral-400 lg:text-[15px]">{item.description}</p>
               </div>
             </div>
           ))}
