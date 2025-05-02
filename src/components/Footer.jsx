@@ -2,8 +2,8 @@ import { resourcesLinks, platformLinks, communityLinks } from "../constants";
 
 const Footer = () => {
   return (
-    <footer className="mt-20 border-t py-10 border-neutral-700 lg:flex justify-center">
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 ml-10 lg:gap-60 px-4">
+    <footer className="mt-20 border-t py-10 border-neutral-700 lg:flex justify-center ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 ml-10 gap-6 lg:gap-60 px-4">
         <div>
           <h3 className="text-md font-semibold mb-4">Resources</h3>
           <ul className="space-y-2">
